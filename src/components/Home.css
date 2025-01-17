@@ -1,0 +1,25 @@
+.home{
+  background-color: rgba(223, 234, 253, 1);
+  height: 95.6%;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.home > h1{
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.home > .btn > button{
+  display: block;
+  width: 300px;
+  margin: 60px auto;
+  padding: 10px;
+  color: white;
+  font-size: 1.5rem;
+  background-color: rgba(83, 135, 250, 1);
+}
+.home > .btn > button:hover{
+  background-color: rgba(255, 111, 113, 1);
+}

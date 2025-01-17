@@ -1,0 +1,25 @@
+
+button{
+  font-family: TheJamsil5Bold;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: small;
+  cursor: pointer;
+}
+.app > .head-bar{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.app > .head-bar > p{
+  margin: 5px;
+  
+}
+.app > .head-bar > .icon > svg{
+  margin: 0 2px;
+}
+.app > .head-bar > .icon > svg:nth-last-of-type(1){
+  margin-right: 5px;
+}

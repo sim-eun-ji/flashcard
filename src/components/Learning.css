@@ -1,0 +1,63 @@
+.learning{
+  background-color: rgba(223, 234, 253, 1);
+  height: 95.6%;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.learning > h2{
+  text-align: center;
+  padding: 30px;
+}
+.learning > .bg-color{
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: rgb(152, 183, 255);
+  padding: 60px 0;
+
+}
+.learning  h3{
+  font-family: TheJamsil5Bold;
+  font-size: border;
+  text-align: center;
+  margin: 30px;
+  color: white;
+}
+.learning > .answer{
+  margin: 30px;
+  color: #222;
+}
+.learning  p{
+  font-family: TheJamsil5Bold;
+  text-align: center;
+  margin-bottom: 15px;
+  color: white;
+} 
+.learning > p{
+  color: #222;
+}
+.learning > .btn{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.learning > .btn > button,
+.learning > button{
+  margin-top: 20px;
+  width: 130px;
+  padding: 15px 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(83, 135, 250, 1);
+}
+.learning > button{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(83, 135, 250, 1);
+}
+.learning > .btn > button:hover,
+.learning > button:hover,
+.learning > button:hover{
+  background-color: rgba(255, 111, 113, 1);
+}
